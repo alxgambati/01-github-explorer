@@ -1,4 +1,5 @@
 import { RepositoryItem } from './RepositoryItem';
+import { Counter } from './Counter';
 
 const repository = {
   name: 'unform',
@@ -11,10 +12,10 @@ export function RepositoryList() {
     <section className="repository-list">
       <h1>Lista de Repositórios</h1>
       <ul>
+      <>
         <RepositoryItem repository={ repository } />
-        <RepositoryItem/>
-        <RepositoryItem/>
-        <RepositoryItem/>
+        <Counter/>
+      </>
       </ul>
     </section>
   );

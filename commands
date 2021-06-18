@@ -52,5 +52,8 @@ touch src/styles/global.css
 yarn add style-loader css-loader -D
 yarn add sass-loader -D
 yarn add node-sass -D
+mkdir src/components
+touch src/components/RepositoryList.jsx
+
 
 

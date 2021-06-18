@@ -44,3 +44,6 @@ module.exports = {
 };" >> webpack.config.js
 
 touch ./src/App.jsx
+yarn add html-webpack-plugin -D
+
+

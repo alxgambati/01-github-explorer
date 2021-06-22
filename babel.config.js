@@ -6,5 +6,6 @@ module.exports = {
         runtime: 'automatic'
       }
     ],
+    "@babel/typescript",
   ]
 }
